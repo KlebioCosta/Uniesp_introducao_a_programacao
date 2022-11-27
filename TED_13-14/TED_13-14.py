@@ -24,7 +24,7 @@ with open(nome_arquivo , 'r', encoding='UTF-8') as arquivo:
     for linha in arquivo.readlines():
         linha = linha.replace('\n','').replace(' ','')
         novo_formato = linha.split(',')
-        dados.append(novo_formato)
+        pontos.append(novo_formato)
 
 for info in pontos:
     url = f'https://api.openweathermap.org/data/2.5/weather?lat={info[3]}&lon={info[2]}&appid={API_KEY}'   
