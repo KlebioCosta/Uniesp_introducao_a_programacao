@@ -16,8 +16,8 @@ from requests import get
 
 
 
-API_KEY = input("Digite sua chave para utilizar a API: ")
-nome_arquivo = input("Informe o arquivo com os dados que deve ser consultados: ")
+API_KEY = input("Digite sua chave API: ")
+nome_arquivo = input("Digite o arquivo com os dados para consuta: ")
 
 pontos = []
 with open(nome_arquivo , 'r', encoding='UTF-8') as arquivo:
