@@ -1,0 +1,45 @@
+{
+    "Roma": {
+        "coord": {
+            "lon": 12.4964,
+            "lat": 41.9028
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 284.25,
+            "feels_like": 282.9,
+            "temp_min": 282.76,
+            "temp_max": 285.29,
+            "pressure": 1019,
+            "humidity": 57
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.57,
+            "deg": 50
+        },
+        "clouds": {
+            "all": 45
+        },
+        "dt": 1669502143,
+        "sys": {
+            "type": 2,
+            "id": 2037790,
+            "country": "IT",
+            "sunrise": 1669443158,
+            "sunset": 1669477336
+        },
+        "timezone": 3600,
+        "id": 6545158,
+        "name": "Trevi",
+        "cod": 200
+    }
+}
